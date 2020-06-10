@@ -1,0 +1,37 @@
+1.Top word count words for Elton John
+
+
+(the, in, and)
+
+2.Top TF-IDF words for Elton John
+
+
+(furnish,elton,billboard)
+
+3.The cosine distance between 'Elton John's and 'Victoria Beckham's articles (represented with TF-IDF) falls within which range?
+
+0.9 to 1.0
+
+4.The cosine distance between 'Elton John's and 'Paul McCartney's articles (represented with TF-IDF) falls within which range?
+
+0.7 to 0.89
+
+5.Who is closer to 'Elton John', 'Victoria Beckham' or 'Paul McCartney'?
+
+Paul McCartney
+
+6.Who is the nearest cosine-distance neighbor to 'Elton John' using raw word counts?
+
+Cliff Richard
+
+7.Who is the nearest cosine-distance neighbor to 'Elton John' using TF-IDF?
+
+Rod Stewart
+
+8.Who is the nearest cosine-distance neighbor to 'Victoria Beckham' using raw word counts?
+
+Mary Fitzgerald (artist)
+
+9.Who is the nearest cosine-distance neighbor to 'Victoria Beckham' using TF-IDF?
+
+David Beckham
