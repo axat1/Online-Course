@@ -1,4 +1,4 @@
-#Instructions
+# Instructions
 
 This assignment is to be run using the SQLite command line tool on a Linux system like the bash shell on https://www.pythonanywhere.com/.
 ```
@@ -9,7 +9,7 @@ This assignment is to be run using the SQLite command line tool on a Linux syste
     sqlite>
 ```
 
-Create a table in the database called "Ages":
+## Create a table in the database called "Ages":
 
 ```
     CREATE TABLE Ages ( 
@@ -18,7 +18,9 @@ Create a table in the database called "Ages":
       age INTEGER
     );
 ```
+
 Then make sure the table is empty by deleting any rows that you previously inserted, and insert these rows and only these rows with the following commands:
+
 ```
     DELETE FROM Ages;
     INSERT INTO Ages (name, age) VALUES ('Heddle', 37);
