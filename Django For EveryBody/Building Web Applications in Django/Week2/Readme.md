@@ -6,6 +6,7 @@ Make sure to use Django's port 8000 and not port 8888 as is used in the above do
 
 
 Add the following to your mysite/polls/views.py with the required information above.
+        
         def owner(request):
             return HttpResponse("Hello, world. xyz is the polls index.")
 
